@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    aws:
+      region:
+        static: us-east-1
+      credentials:
+        access-key: your access key
+        secret-key: your secret key
+
+server:
+  port: 2207
+
+queue:
+  name: sandeepbegudem-queue
+
